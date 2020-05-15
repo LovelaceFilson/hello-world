@@ -3,6 +3,7 @@
 body {
     font-family: "Lato", sans-serif;
     margin: 0px;
+    
 }
 
 .container {
@@ -16,8 +17,8 @@ body {
 /* Nav Styles */
 .nav-wrapper {
     display: flex;
-    justify-content: space-between;
-    padding: 38px;
+   justify-content: space-between;
+    padding: 50px;
 
 }
 
@@ -62,15 +63,25 @@ body {
     color: black  !important;
 }
 
+
+.right-side > .brand > a:hover {
+    border-bottom: 1px solid black;
+    color:black;
+    color: black  !important;
+    
+}
+                
 /* Portfolio Styles */
 
 .portfolio-items-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    
 }
 
 .portfolio-item-wrapper {
     position: relative;
+    
 
 }
 
@@ -141,6 +152,130 @@ body {
     color: lightseagreen;
 
 }
+
+/* Log in */
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif; 
+
+}
+
+ 
+.container2 {
+    text-transform: uppercase;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.container2 {
+        height: 22px;
+        border-bottom: 1px solid transparent;
+        transition: border-bottom 0.5s;
+    
+    }
+    
+    .container2 a {
+        color: #8a8a8a;
+        text-decoration: none;
+        transition: color 0.5s;
+    }
+    
+    
+    .container2 a:hover {
+        color:black;
+    }
+    
+    .container2 {
+        border-bottom: 1px solid black;
+    }
+    
+    .container2 a {
+        color: black  !important;
+    }
+    
+    
+    .container2 > .brand > a:hover {
+        border-bottom: 1px solid black;
+        color:black;
+        color: black  !important;
+        
+      
+}
+
+.box{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #191919;
+    text-align: center;
+}
+
+.box h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+
+
+}
+
+.box input[type = "text"], .box input[type ="password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition:0.25s;
+
+}
+
+.box input[type = "text"]:focus,.box input[type ="password"]:focus{
+    width: 280px;
+    border-color: #2ecc71;
+
+
+}
+.box input[type = "submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition:0.25s;
+    cursor: pointer;
+
+}
+
+.box input[type = "submit"]:hover{
+    background: #2ecc71;
+
+}
+
+.profile-content-wrapper h1 {
+    color: midnightblue;
+
+}
+
+
+
 
 
 
